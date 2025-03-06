@@ -119,10 +119,11 @@ go-oauth-boilerplate/
 │   └── server/              # Main entry point for the application
 ├── internal/
 │   ├── auth/                # Authentication-related logic
-│   │   ├── delivery/        # HTTP handlers (Gin)
+│   │   ├── handler/         # HTTP handlers (Gin)
 │   │   ├── repository/      # Database and Redis interactions
 │   │   ├── usecase/         # Business logic
 │   │   └── entity/          # Domain models
+│   │   ├── dto/             # DTO
 │   ├── config/              # Configuration management
 │   ├── middleware/          # Custom middleware (e.g., auth middleware)
 │   └── utils/               # Utility functions (e.g., JWT, hashing)
