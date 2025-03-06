@@ -55,7 +55,7 @@ Before running the project, ensure you have the following installed:
    - Create a project in the [Google Cloud Console](https://console.cloud.google.com/).
    - Enable the **Google OAuth 2.0 API**.
    - Create OAuth credentials (Client ID and Client Secret).
-   - Set the authorized redirect URI (e.g., `http://localhost:8080/auth/google/callback`).
+   - Set the authorized redirect URI (e.g., `http://localhost:8080/api/auth/login/google/callback`).
 
 ---
 
@@ -64,7 +64,7 @@ Before running the project, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/go-oauth-boilerplate.git
+git clone https://github.com/satyanurhutama/go-oauth-boilerplate.git
 cd go-oauth-boilerplate
 ```
 
